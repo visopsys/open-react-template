@@ -27,7 +27,7 @@ const App = () => {
     const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
-    trackPage(page);
+    // trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
